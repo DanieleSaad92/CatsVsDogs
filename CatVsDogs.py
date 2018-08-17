@@ -8,8 +8,13 @@ from tflearn.layers.conv import conv_2d, max_pool_2d
 from tflearn.layers.core import input_data, dropout, fully_connected
 from tflearn.layers.estimator import regression
 
-TRAIN_DIR = "C:/Users/danie/PycharmProjects/Tensorflow/CatVsDogs/train/"
-TEST_DIR = "C:/Users/danie/PycharmProjects/Tensorflow/CatVsDogs/test/"
+#TRAIN_DIR = "C:/Users/danie/PycharmProjects/Tensorflow/CatVsDogs/train/"
+#TEST_DIR = "C:/Users/danie/PycharmProjects/Tensorflow/CatVsDogs/test/"
+#<username>/datasets/<dataset_name>/<version>
+
+TRAIN_DIR = "daniele92/datasets/dogsvscats/1/train"
+TEST_DIR = "daniele92/datasets/dogsvscats/1/test"
+
 IMG_SIZE = 50
 LR = 0.001
 
